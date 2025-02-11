@@ -1,0 +1,2675 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c26d8f2990372490ee75626009c2b4b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c26d8f2990372490ee75626009c2b4b4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c26d8f2990372490ee75626009c2b4b4 = L.map(
+                "map_c26d8f2990372490ee75626009c2b4b4",
+                {
+                    center: [59.91, 10.75],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44329d13e723c32b74eb3f6697c38785 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_80d13df39d972186badf150449ef4df0 = L.marker(
+                [59.923175, 10.673739],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_e811d323b309dec1d05c1d820425fc9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80d13df39d972186badf150449ef4df0.setIcon(icon_e811d323b309dec1d05c1d820425fc9f);
+        
+    
+        var popup_9fe452507cf567725690ac298063c6d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e1dd49cf4ccc4e587f8c665a9db2c6f = $(`<div id="html_6e1dd49cf4ccc4e587f8c665a9db2c6f" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:14:05.866Z</div>`)[0];
+                popup_9fe452507cf567725690ac298063c6d6.setContent(html_6e1dd49cf4ccc4e587f8c665a9db2c6f);
+            
+        
+
+        marker_80d13df39d972186badf150449ef4df0.bindPopup(popup_9fe452507cf567725690ac298063c6d6)
+        ;
+
+        
+    
+    
+            var marker_8676af69785d18baf6ccaa4c8dd94a7b = L.marker(
+                [59.900838, 10.581841],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_c4435a965719d4d013c7432aa67df800 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8676af69785d18baf6ccaa4c8dd94a7b.setIcon(icon_c4435a965719d4d013c7432aa67df800);
+        
+    
+        var popup_574990dbd0353f804cd2e9b9ad0a9326 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c63aa836a376f19c0b1be8d7eb5a0bb = $(`<div id="html_1c63aa836a376f19c0b1be8d7eb5a0bb" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1160-2025-02-11<br>Last Updated: 2025-02-11T18:55:05.725Z</div>`)[0];
+                popup_574990dbd0353f804cd2e9b9ad0a9326.setContent(html_1c63aa836a376f19c0b1be8d7eb5a0bb);
+            
+        
+
+        marker_8676af69785d18baf6ccaa4c8dd94a7b.bindPopup(popup_574990dbd0353f804cd2e9b9ad0a9326)
+        ;
+
+        
+    
+    
+            var marker_0d8aa3ca2421b4ebf94391ab2980da3d = L.marker(
+                [59.607717, 10.756757],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_7b906b284ed41747a53d18540e33b71b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0d8aa3ca2421b4ebf94391ab2980da3d.setIcon(icon_7b906b284ed41747a53d18540e33b71b);
+        
+    
+        var popup_cd2121696f3f6c5dd8450216ed1534c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e3a470354cd9f54e7733535e797b143 = $(`<div id="html_9e3a470354cd9f54e7733535e797b143" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:14:11.054Z</div>`)[0];
+                popup_cd2121696f3f6c5dd8450216ed1534c2.setContent(html_9e3a470354cd9f54e7733535e797b143);
+            
+        
+
+        marker_0d8aa3ca2421b4ebf94391ab2980da3d.bindPopup(popup_cd2121696f3f6c5dd8450216ed1534c2)
+        ;
+
+        
+    
+    
+            var marker_569bc1b5eb46380de5cb182c965ff19e = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_4986d355d43d2e94196d03b3454ab72a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_569bc1b5eb46380de5cb182c965ff19e.setIcon(icon_4986d355d43d2e94196d03b3454ab72a);
+        
+    
+        var popup_60bf17f80ba0d7bff5e27f908a55b249 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f859191af14cfe4192d768e4ecb74734 = $(`<div id="html_f859191af14cfe4192d768e4ecb74734" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_60bf17f80ba0d7bff5e27f908a55b249.setContent(html_f859191af14cfe4192d768e4ecb74734);
+            
+        
+
+        marker_569bc1b5eb46380de5cb182c965ff19e.bindPopup(popup_60bf17f80ba0d7bff5e27f908a55b249)
+        ;
+
+        
+    
+    
+            var marker_070ef51860801ea1f59761af8251fe96 = L.marker(
+                [59.649429, 10.798512],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_7b86ac890862617c7adb7ca03cbf5632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_070ef51860801ea1f59761af8251fe96.setIcon(icon_7b86ac890862617c7adb7ca03cbf5632);
+        
+    
+        var popup_469ecc2ea9e7495c53aa8efcdb8644f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e08dbbf9577d6d4bf3ba2c912baf8110 = $(`<div id="html_e08dbbf9577d6d4bf3ba2c912baf8110" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:14:03.340Z</div>`)[0];
+                popup_469ecc2ea9e7495c53aa8efcdb8644f1.setContent(html_e08dbbf9577d6d4bf3ba2c912baf8110);
+            
+        
+
+        marker_070ef51860801ea1f59761af8251fe96.bindPopup(popup_469ecc2ea9e7495c53aa8efcdb8644f1)
+        ;
+
+        
+    
+    
+            var marker_02efbf7b35d8f1f1d8547dd7d79df816 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_cbdc0061f27afc84692911852ee04669 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_02efbf7b35d8f1f1d8547dd7d79df816.setIcon(icon_cbdc0061f27afc84692911852ee04669);
+        
+    
+        var popup_feeecdc29724f7f43259fce6d5d4dfcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_312f6efb3d7c8e7c86e99fec485e5b86 = $(`<div id="html_312f6efb3d7c8e7c86e99fec485e5b86" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_feeecdc29724f7f43259fce6d5d4dfcc.setContent(html_312f6efb3d7c8e7c86e99fec485e5b86);
+            
+        
+
+        marker_02efbf7b35d8f1f1d8547dd7d79df816.bindPopup(popup_feeecdc29724f7f43259fce6d5d4dfcc)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_7c8a0b08cc8169ffea7331e3b2fef4ba = L.marker(
+                [59.923175, 10.673739],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_36c03f31106dc12192eb61f85aaacb19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7c8a0b08cc8169ffea7331e3b2fef4ba.setIcon(icon_36c03f31106dc12192eb61f85aaacb19);
+        
+    
+        var popup_cfd0e1935009a9c5669348f6787ab224 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90cffc5a47cc18b0a8631368f008e678 = $(`<div id="html_90cffc5a47cc18b0a8631368f008e678" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:14:05.866Z</div>`)[0];
+                popup_cfd0e1935009a9c5669348f6787ab224.setContent(html_90cffc5a47cc18b0a8631368f008e678);
+            
+        
+
+        marker_7c8a0b08cc8169ffea7331e3b2fef4ba.bindPopup(popup_cfd0e1935009a9c5669348f6787ab224)
+        ;
+
+        
+    
+    
+            var marker_2a95b7c2ec9e39fd1ca7dd31dd7cf6a0 = L.marker(
+                [59.900838, 10.581841],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_33fefa42177f95f555ba51bc90a82e59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a95b7c2ec9e39fd1ca7dd31dd7cf6a0.setIcon(icon_33fefa42177f95f555ba51bc90a82e59);
+        
+    
+        var popup_71aa975dab3808ba610d99cd69abf1fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bfe810d73064d8818f6e04c33a71d7b = $(`<div id="html_0bfe810d73064d8818f6e04c33a71d7b" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1160-2025-02-11<br>Last Updated: 2025-02-11T18:55:05.725Z</div>`)[0];
+                popup_71aa975dab3808ba610d99cd69abf1fc.setContent(html_0bfe810d73064d8818f6e04c33a71d7b);
+            
+        
+
+        marker_2a95b7c2ec9e39fd1ca7dd31dd7cf6a0.bindPopup(popup_71aa975dab3808ba610d99cd69abf1fc)
+        ;
+
+        
+    
+    
+            var marker_16b226ed96f0d33ed5bb7920755f5cf6 = L.marker(
+                [59.604527, 10.750108],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_2744430f8bbe38f8e1250b2d1e6e8cbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16b226ed96f0d33ed5bb7920755f5cf6.setIcon(icon_2744430f8bbe38f8e1250b2d1e6e8cbc);
+        
+    
+        var popup_e1111be13fb55905ad2781667e5d3424 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34776fe0748d450ec9ee21bcd913afea = $(`<div id="html_34776fe0748d450ec9ee21bcd913afea" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:14:37.473Z</div>`)[0];
+                popup_e1111be13fb55905ad2781667e5d3424.setContent(html_34776fe0748d450ec9ee21bcd913afea);
+            
+        
+
+        marker_16b226ed96f0d33ed5bb7920755f5cf6.bindPopup(popup_e1111be13fb55905ad2781667e5d3424)
+        ;
+
+        
+    
+    
+            var marker_4b9d77d5d5fbf8049d0d805cd42e6565 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_009f19cc67ae4f3076a32a6909f098eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4b9d77d5d5fbf8049d0d805cd42e6565.setIcon(icon_009f19cc67ae4f3076a32a6909f098eb);
+        
+    
+        var popup_86336359491f5b7c6c882a4549effcdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_830b895795b65270f7ef7c8f7ddf92dc = $(`<div id="html_830b895795b65270f7ef7c8f7ddf92dc" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_86336359491f5b7c6c882a4549effcdd.setContent(html_830b895795b65270f7ef7c8f7ddf92dc);
+            
+        
+
+        marker_4b9d77d5d5fbf8049d0d805cd42e6565.bindPopup(popup_86336359491f5b7c6c882a4549effcdd)
+        ;
+
+        
+    
+    
+            var marker_2062e1cad5c1dcaefc36e6dea7e75fc2 = L.marker(
+                [59.658475, 10.79719],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_fe68f3b3ce0584b3708d126ade43d219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2062e1cad5c1dcaefc36e6dea7e75fc2.setIcon(icon_fe68f3b3ce0584b3708d126ade43d219);
+        
+    
+        var popup_6c6b8951355ffbe2dc0cda2ec521cce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72df6ba7e1a993d36d834454ce846274 = $(`<div id="html_72df6ba7e1a993d36d834454ce846274" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:14:33.650Z</div>`)[0];
+                popup_6c6b8951355ffbe2dc0cda2ec521cce7.setContent(html_72df6ba7e1a993d36d834454ce846274);
+            
+        
+
+        marker_2062e1cad5c1dcaefc36e6dea7e75fc2.bindPopup(popup_6c6b8951355ffbe2dc0cda2ec521cce7)
+        ;
+
+        
+    
+    
+            var marker_0b1648546b7d02e9700261ab26b239bd = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_0be003cb997aebbc6f88883c77c2077e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b1648546b7d02e9700261ab26b239bd.setIcon(icon_0be003cb997aebbc6f88883c77c2077e);
+        
+    
+        var popup_cb96db6a611089c38a7d4ecf424ebcbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9042b039d4a0b5045c1983604a80d646 = $(`<div id="html_9042b039d4a0b5045c1983604a80d646" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_cb96db6a611089c38a7d4ecf424ebcbf.setContent(html_9042b039d4a0b5045c1983604a80d646);
+            
+        
+
+        marker_0b1648546b7d02e9700261ab26b239bd.bindPopup(popup_cb96db6a611089c38a7d4ecf424ebcbf)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_9e888bfef1e44ce75736945730b1d43f = L.marker(
+                [59.919693, 10.662971],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_400f98ecb1ce4e4065daa725a9735542 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e888bfef1e44ce75736945730b1d43f.setIcon(icon_400f98ecb1ce4e4065daa725a9735542);
+        
+    
+        var popup_6b1d08f02aa4eddcbaf16ad37eca70b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2eb751f5614f1063b6c4a335c8dca3e = $(`<div id="html_a2eb751f5614f1063b6c4a335c8dca3e" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:15:07.241Z</div>`)[0];
+                popup_6b1d08f02aa4eddcbaf16ad37eca70b1.setContent(html_a2eb751f5614f1063b6c4a335c8dca3e);
+            
+        
+
+        marker_9e888bfef1e44ce75736945730b1d43f.bindPopup(popup_6b1d08f02aa4eddcbaf16ad37eca70b1)
+        ;
+
+        
+    
+    
+            var marker_eccce9387f07da38f1f29d8672abf661 = L.marker(
+                [59.603805, 10.748585],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_fd4c588faabd9915774de20208f45221 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eccce9387f07da38f1f29d8672abf661.setIcon(icon_fd4c588faabd9915774de20208f45221);
+        
+    
+        var popup_68afb6cfc291b06c7afb82f0e13930c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1c559bc0f50a010ff6d28122de73a10 = $(`<div id="html_d1c559bc0f50a010ff6d28122de73a10" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:15:08.617Z</div>`)[0];
+                popup_68afb6cfc291b06c7afb82f0e13930c1.setContent(html_d1c559bc0f50a010ff6d28122de73a10);
+            
+        
+
+        marker_eccce9387f07da38f1f29d8672abf661.bindPopup(popup_68afb6cfc291b06c7afb82f0e13930c1)
+        ;
+
+        
+    
+    
+            var marker_4074e1cf25c93368af60f04109984454 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_997700a29a791f44a9943813fa1ec73a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4074e1cf25c93368af60f04109984454.setIcon(icon_997700a29a791f44a9943813fa1ec73a);
+        
+    
+        var popup_4e127d725fe3a69c7a0a0b8243c343d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa9bed928b9073bd6ceb33e14bc52a10 = $(`<div id="html_aa9bed928b9073bd6ceb33e14bc52a10" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_4e127d725fe3a69c7a0a0b8243c343d1.setContent(html_aa9bed928b9073bd6ceb33e14bc52a10);
+            
+        
+
+        marker_4074e1cf25c93368af60f04109984454.bindPopup(popup_4e127d725fe3a69c7a0a0b8243c343d1)
+        ;
+
+        
+    
+    
+            var marker_a8490e12a01a401d7786f713970525c0 = L.marker(
+                [59.662858, 10.794857],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_0f698ed84e9b00e894d0827d99ca347b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8490e12a01a401d7786f713970525c0.setIcon(icon_0f698ed84e9b00e894d0827d99ca347b);
+        
+    
+        var popup_53f55855ff2fa23944914044701eb914 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_745372c2880c0826172cb9100c4d0f20 = $(`<div id="html_745372c2880c0826172cb9100c4d0f20" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:15:03.703Z</div>`)[0];
+                popup_53f55855ff2fa23944914044701eb914.setContent(html_745372c2880c0826172cb9100c4d0f20);
+            
+        
+
+        marker_a8490e12a01a401d7786f713970525c0.bindPopup(popup_53f55855ff2fa23944914044701eb914)
+        ;
+
+        
+    
+    
+            var marker_9667377598012c75976d5e147040d9d5 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_87ba900dfdbdee0dfaa1b6e00b4908a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9667377598012c75976d5e147040d9d5.setIcon(icon_87ba900dfdbdee0dfaa1b6e00b4908a3);
+        
+    
+        var popup_adab8254ec2c315030dee197d704b9e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8987d106fd5fefedcad76e69bb3c532 = $(`<div id="html_f8987d106fd5fefedcad76e69bb3c532" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_adab8254ec2c315030dee197d704b9e1.setContent(html_f8987d106fd5fefedcad76e69bb3c532);
+            
+        
+
+        marker_9667377598012c75976d5e147040d9d5.bindPopup(popup_adab8254ec2c315030dee197d704b9e1)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_6b6909d304f2a733b9732711be06ad10 = L.marker(
+                [59.919693, 10.662971],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_097c4ff596ad34a3da09c104b98a4f0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b6909d304f2a733b9732711be06ad10.setIcon(icon_097c4ff596ad34a3da09c104b98a4f0a);
+        
+    
+        var popup_aeaec0468449b77d52815145599db37d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f30c5b68a3af56d6cf85ec41acf2c62b = $(`<div id="html_f30c5b68a3af56d6cf85ec41acf2c62b" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:15:07.241Z</div>`)[0];
+                popup_aeaec0468449b77d52815145599db37d.setContent(html_f30c5b68a3af56d6cf85ec41acf2c62b);
+            
+        
+
+        marker_6b6909d304f2a733b9732711be06ad10.bindPopup(popup_aeaec0468449b77d52815145599db37d)
+        ;
+
+        
+    
+    
+            var marker_86548658bb9191f282c9c356b3953a72 = L.marker(
+                [59.603805, 10.748585],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_0e3813869f6d8d36ee41902a9d1e363d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86548658bb9191f282c9c356b3953a72.setIcon(icon_0e3813869f6d8d36ee41902a9d1e363d);
+        
+    
+        var popup_a8bfd6d38d64c853d758f68c9322018e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3d98ff9c238a5948d5ed267905fb219 = $(`<div id="html_c3d98ff9c238a5948d5ed267905fb219" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:15:08.617Z</div>`)[0];
+                popup_a8bfd6d38d64c853d758f68c9322018e.setContent(html_c3d98ff9c238a5948d5ed267905fb219);
+            
+        
+
+        marker_86548658bb9191f282c9c356b3953a72.bindPopup(popup_a8bfd6d38d64c853d758f68c9322018e)
+        ;
+
+        
+    
+    
+            var marker_dbc9668b4199dc065c98458f8ecc302f = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_33dc74eda7a762a4a37876a7fba03e45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dbc9668b4199dc065c98458f8ecc302f.setIcon(icon_33dc74eda7a762a4a37876a7fba03e45);
+        
+    
+        var popup_bbee93800328ba39f37a22d50dded9c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30f27df4a29161f0751b2e417d83cdf6 = $(`<div id="html_30f27df4a29161f0751b2e417d83cdf6" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_bbee93800328ba39f37a22d50dded9c3.setContent(html_30f27df4a29161f0751b2e417d83cdf6);
+            
+        
+
+        marker_dbc9668b4199dc065c98458f8ecc302f.bindPopup(popup_bbee93800328ba39f37a22d50dded9c3)
+        ;
+
+        
+    
+    
+            var marker_f2b09d1b3eb941515729038b96fdee15 = L.marker(
+                [59.663305, 10.79461],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_e357f4c77e28ef51546745374116e063 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2b09d1b3eb941515729038b96fdee15.setIcon(icon_e357f4c77e28ef51546745374116e063);
+        
+    
+        var popup_7bb7a2593a6b6d13edb6dde563d04483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06597e308831d9b9aa8073a4d1f4c083 = $(`<div id="html_06597e308831d9b9aa8073a4d1f4c083" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:15:42.152Z</div>`)[0];
+                popup_7bb7a2593a6b6d13edb6dde563d04483.setContent(html_06597e308831d9b9aa8073a4d1f4c083);
+            
+        
+
+        marker_f2b09d1b3eb941515729038b96fdee15.bindPopup(popup_7bb7a2593a6b6d13edb6dde563d04483)
+        ;
+
+        
+    
+    
+            var marker_45b71dd609b4305c2668ac3d926d75dd = L.marker(
+                [59.43173, 10.65713],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_5b2f532fab2db143c79562bc864ee231 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_45b71dd609b4305c2668ac3d926d75dd.setIcon(icon_5b2f532fab2db143c79562bc864ee231);
+        
+    
+        var popup_d42843961185cbdd141978a37fe058ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e652e7461fc479f129087522cfa35276 = $(`<div id="html_e652e7461fc479f129087522cfa35276" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:15:38.454Z</div>`)[0];
+                popup_d42843961185cbdd141978a37fe058ce.setContent(html_e652e7461fc479f129087522cfa35276);
+            
+        
+
+        marker_45b71dd609b4305c2668ac3d926d75dd.bindPopup(popup_d42843961185cbdd141978a37fe058ce)
+        ;
+
+        
+    
+    
+            var marker_1dc02a65329c6e24b056703fede5a262 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_0b53fc954d15179a43a24d56ab348d89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1dc02a65329c6e24b056703fede5a262.setIcon(icon_0b53fc954d15179a43a24d56ab348d89);
+        
+    
+        var popup_cadec840c0393f8f670c118054ae84be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df0cbaca3bbda004dc79b939510026a7 = $(`<div id="html_df0cbaca3bbda004dc79b939510026a7" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_cadec840c0393f8f670c118054ae84be.setContent(html_df0cbaca3bbda004dc79b939510026a7);
+            
+        
+
+        marker_1dc02a65329c6e24b056703fede5a262.bindPopup(popup_cadec840c0393f8f670c118054ae84be)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_ee9c16ba3be50e56bfebe381db72aa00 = L.marker(
+                [59.916287, 10.651881],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_174c8089935a33c8cf8e0501adc2b15b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee9c16ba3be50e56bfebe381db72aa00.setIcon(icon_174c8089935a33c8cf8e0501adc2b15b);
+        
+    
+        var popup_950b3efd7683b31c1adac4eb1eb029f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce2d87ffe4a8269059daa737a4f690a0 = $(`<div id="html_ce2d87ffe4a8269059daa737a4f690a0" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:16:10.598Z</div>`)[0];
+                popup_950b3efd7683b31c1adac4eb1eb029f6.setContent(html_ce2d87ffe4a8269059daa737a4f690a0);
+            
+        
+
+        marker_ee9c16ba3be50e56bfebe381db72aa00.bindPopup(popup_950b3efd7683b31c1adac4eb1eb029f6)
+        ;
+
+        
+    
+    
+            var marker_7c67b2f8ef93b85050c2b7e8a3b89c40 = L.marker(
+                [59.601362, 10.743575],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_8e55ec61f377f70d935ec5610d861996 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7c67b2f8ef93b85050c2b7e8a3b89c40.setIcon(icon_8e55ec61f377f70d935ec5610d861996);
+        
+    
+        var popup_60f5d2a88158f2728d31e5d0d6c97ff1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9067e7a68ba978c36ed1be0ef934b0e = $(`<div id="html_b9067e7a68ba978c36ed1be0ef934b0e" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:16:04.010Z</div>`)[0];
+                popup_60f5d2a88158f2728d31e5d0d6c97ff1.setContent(html_b9067e7a68ba978c36ed1be0ef934b0e);
+            
+        
+
+        marker_7c67b2f8ef93b85050c2b7e8a3b89c40.bindPopup(popup_60f5d2a88158f2728d31e5d0d6c97ff1)
+        ;
+
+        
+    
+    
+            var marker_f1b24c6c375a015dda7600eb85e9b021 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_2314b6e8cb6cf76fa0b565b7d76cd5de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f1b24c6c375a015dda7600eb85e9b021.setIcon(icon_2314b6e8cb6cf76fa0b565b7d76cd5de);
+        
+    
+        var popup_01922af6d4276d45e40346b976d54065 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0ef65a972970645f383db3bf51a9799 = $(`<div id="html_b0ef65a972970645f383db3bf51a9799" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_01922af6d4276d45e40346b976d54065.setContent(html_b0ef65a972970645f383db3bf51a9799);
+            
+        
+
+        marker_f1b24c6c375a015dda7600eb85e9b021.bindPopup(popup_01922af6d4276d45e40346b976d54065)
+        ;
+
+        
+    
+    
+            var marker_62d617edf9d3364160cba09511f7e483 = L.marker(
+                [59.663935, 10.794261],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_644afe5d5ceafd99ae11f5ce355e7cf2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_62d617edf9d3364160cba09511f7e483.setIcon(icon_644afe5d5ceafd99ae11f5ce355e7cf2);
+        
+    
+        var popup_2503b1f4bfa401bf1fb29ee76f483b43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a939c2482eee0fb6085792adb886b95 = $(`<div id="html_0a939c2482eee0fb6085792adb886b95" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:16:05.153Z</div>`)[0];
+                popup_2503b1f4bfa401bf1fb29ee76f483b43.setContent(html_0a939c2482eee0fb6085792adb886b95);
+            
+        
+
+        marker_62d617edf9d3364160cba09511f7e483.bindPopup(popup_2503b1f4bfa401bf1fb29ee76f483b43)
+        ;
+
+        
+    
+    
+            var marker_54e94f0e5f74a637f1cb9bd8d3c80215 = L.marker(
+                [59.431715, 10.65713],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_48ece2fda829456ec9c1961a0f7749da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_54e94f0e5f74a637f1cb9bd8d3c80215.setIcon(icon_48ece2fda829456ec9c1961a0f7749da);
+        
+    
+        var popup_e6a191bd3d4f6dbcb80443a617bae2b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d57e4951be0b9f083818e8b7f7f63ed = $(`<div id="html_3d57e4951be0b9f083818e8b7f7f63ed" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:16:10.634Z</div>`)[0];
+                popup_e6a191bd3d4f6dbcb80443a617bae2b8.setContent(html_3d57e4951be0b9f083818e8b7f7f63ed);
+            
+        
+
+        marker_54e94f0e5f74a637f1cb9bd8d3c80215.bindPopup(popup_e6a191bd3d4f6dbcb80443a617bae2b8)
+        ;
+
+        
+    
+    
+            var marker_018cc741b3aff5fc75036ff59aa5b764 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_178d77c1af91208ac831660987146e7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_018cc741b3aff5fc75036ff59aa5b764.setIcon(icon_178d77c1af91208ac831660987146e7a);
+        
+    
+        var popup_a488721ffc424805b8d65135823cc3b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfd53a81983eb5c30f8803ab912c787f = $(`<div id="html_bfd53a81983eb5c30f8803ab912c787f" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_a488721ffc424805b8d65135823cc3b5.setContent(html_bfd53a81983eb5c30f8803ab912c787f);
+            
+        
+
+        marker_018cc741b3aff5fc75036ff59aa5b764.bindPopup(popup_a488721ffc424805b8d65135823cc3b5)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_b233c7bfadfef90ab874bfafa50b79d1 = L.marker(
+                [59.916287, 10.651881],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_f73915382377a58dd0eed46e21c0aee6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b233c7bfadfef90ab874bfafa50b79d1.setIcon(icon_f73915382377a58dd0eed46e21c0aee6);
+        
+    
+        var popup_eac41e90af6a2a532506c435de383f20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f616485100de1ae244126da3c724f61 = $(`<div id="html_5f616485100de1ae244126da3c724f61" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:16:10.598Z</div>`)[0];
+                popup_eac41e90af6a2a532506c435de383f20.setContent(html_5f616485100de1ae244126da3c724f61);
+            
+        
+
+        marker_b233c7bfadfef90ab874bfafa50b79d1.bindPopup(popup_eac41e90af6a2a532506c435de383f20)
+        ;
+
+        
+    
+    
+            var marker_87771afb09611550aaf2a2571b9598e3 = L.marker(
+                [59.594258, 10.73952],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_799c587ad411b0c61e4326db9e4bf263 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87771afb09611550aaf2a2571b9598e3.setIcon(icon_799c587ad411b0c61e4326db9e4bf263);
+        
+    
+        var popup_810eae677d823cae92f9b9395fa31dd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_307228304f491320b3a2ada50037e7de = $(`<div id="html_307228304f491320b3a2ada50037e7de" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:16:44.338Z</div>`)[0];
+                popup_810eae677d823cae92f9b9395fa31dd1.setContent(html_307228304f491320b3a2ada50037e7de);
+            
+        
+
+        marker_87771afb09611550aaf2a2571b9598e3.bindPopup(popup_810eae677d823cae92f9b9395fa31dd1)
+        ;
+
+        
+    
+    
+            var marker_f506148885e65eb351efef4db8367e1d = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_442f442b27354fc7c12c3129c27d7e78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f506148885e65eb351efef4db8367e1d.setIcon(icon_442f442b27354fc7c12c3129c27d7e78);
+        
+    
+        var popup_028ba1ed07706a9054c817dcb6a7db85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71da268e8dfaf0f8590577b79bc29747 = $(`<div id="html_71da268e8dfaf0f8590577b79bc29747" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_028ba1ed07706a9054c817dcb6a7db85.setContent(html_71da268e8dfaf0f8590577b79bc29747);
+            
+        
+
+        marker_f506148885e65eb351efef4db8367e1d.bindPopup(popup_028ba1ed07706a9054c817dcb6a7db85)
+        ;
+
+        
+    
+    
+            var marker_71f39b0eb3f1cfb8a2fb4563440b3a94 = L.marker(
+                [59.668845, 10.793768],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_be02dce58c2514e4bc19c0a8101d9a5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_71f39b0eb3f1cfb8a2fb4563440b3a94.setIcon(icon_be02dce58c2514e4bc19c0a8101d9a5f);
+        
+    
+        var popup_5f84c7ca17e4748f50fe3f9c0145f33b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f1ad8cff2b1b1325e859fc645df6611 = $(`<div id="html_8f1ad8cff2b1b1325e859fc645df6611" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:16:36.444Z</div>`)[0];
+                popup_5f84c7ca17e4748f50fe3f9c0145f33b.setContent(html_8f1ad8cff2b1b1325e859fc645df6611);
+            
+        
+
+        marker_71f39b0eb3f1cfb8a2fb4563440b3a94.bindPopup(popup_5f84c7ca17e4748f50fe3f9c0145f33b)
+        ;
+
+        
+    
+    
+            var marker_0358b083de12af0915c20824711fd5ef = L.marker(
+                [59.431715, 10.65713],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_50f46bfefaeeabc401075b0fcbe3e821 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0358b083de12af0915c20824711fd5ef.setIcon(icon_50f46bfefaeeabc401075b0fcbe3e821);
+        
+    
+        var popup_f3188ded03d064c891b054c4e5d4afcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebacf88e0be82c52d2b36c01ff70d497 = $(`<div id="html_ebacf88e0be82c52d2b36c01ff70d497" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:16:10.634Z</div>`)[0];
+                popup_f3188ded03d064c891b054c4e5d4afcc.setContent(html_ebacf88e0be82c52d2b36c01ff70d497);
+            
+        
+
+        marker_0358b083de12af0915c20824711fd5ef.bindPopup(popup_f3188ded03d064c891b054c4e5d4afcc)
+        ;
+
+        
+    
+    
+            var marker_2889c2202132f566154a826955093dd7 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_3d936fce60fb04dcd127912117285707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2889c2202132f566154a826955093dd7.setIcon(icon_3d936fce60fb04dcd127912117285707);
+        
+    
+        var popup_e796f666eab5a31eee73c18e8cbfcb72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b827ccb1d5bc1d84d1aae9679bc5d45 = $(`<div id="html_6b827ccb1d5bc1d84d1aae9679bc5d45" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_e796f666eab5a31eee73c18e8cbfcb72.setContent(html_6b827ccb1d5bc1d84d1aae9679bc5d45);
+            
+        
+
+        marker_2889c2202132f566154a826955093dd7.bindPopup(popup_e796f666eab5a31eee73c18e8cbfcb72)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_721d8c51ce08001c294688182389c141 = L.marker(
+                [59.915224, 10.647889],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_bada33c384205987fceb8b8d91eebea3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_721d8c51ce08001c294688182389c141.setIcon(icon_bada33c384205987fceb8b8d91eebea3);
+        
+    
+        var popup_2f7c538e3f902c2bf292b69773523c1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f0d1387b293d2d23b20c9a06f7040aa = $(`<div id="html_0f0d1387b293d2d23b20c9a06f7040aa" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:17:08.508Z</div>`)[0];
+                popup_2f7c538e3f902c2bf292b69773523c1e.setContent(html_0f0d1387b293d2d23b20c9a06f7040aa);
+            
+        
+
+        marker_721d8c51ce08001c294688182389c141.bindPopup(popup_2f7c538e3f902c2bf292b69773523c1e)
+        ;
+
+        
+    
+    
+            var marker_2ba3cebd7c18143043ebbc56282236cf = L.marker(
+                [59.585333, 10.73511],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_20cb9bc9804114a74acb2f411877bb87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ba3cebd7c18143043ebbc56282236cf.setIcon(icon_20cb9bc9804114a74acb2f411877bb87);
+        
+    
+        var popup_2a6b957e69f30f5b0004fbf0613be499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bacdfe7d8a763b1567cad9a16a5fdb4b = $(`<div id="html_bacdfe7d8a763b1567cad9a16a5fdb4b" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:17:07.819Z</div>`)[0];
+                popup_2a6b957e69f30f5b0004fbf0613be499.setContent(html_bacdfe7d8a763b1567cad9a16a5fdb4b);
+            
+        
+
+        marker_2ba3cebd7c18143043ebbc56282236cf.bindPopup(popup_2a6b957e69f30f5b0004fbf0613be499)
+        ;
+
+        
+    
+    
+            var marker_f266eac53081a27fb27b7eb047273c40 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_a1e0e72873751dbeb75d2844a64f2c12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f266eac53081a27fb27b7eb047273c40.setIcon(icon_a1e0e72873751dbeb75d2844a64f2c12);
+        
+    
+        var popup_93790571578d4328b86fb61023ea86a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62f5d9216b92ee59706581d38c72eda3 = $(`<div id="html_62f5d9216b92ee59706581d38c72eda3" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_93790571578d4328b86fb61023ea86a7.setContent(html_62f5d9216b92ee59706581d38c72eda3);
+            
+        
+
+        marker_f266eac53081a27fb27b7eb047273c40.bindPopup(popup_93790571578d4328b86fb61023ea86a7)
+        ;
+
+        
+    
+    
+            var marker_95b7973e1e7f83e19cb23d9f8220ae98 = L.marker(
+                [59.676446, 10.796612],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_de61c51f14422488ba99b10317a61ad6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_95b7973e1e7f83e19cb23d9f8220ae98.setIcon(icon_de61c51f14422488ba99b10317a61ad6);
+        
+    
+        var popup_c5fd3170f9295b6fe79b1cc65a3c189c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc18ebe6e1ceac53911c4dd4db18050 = $(`<div id="html_bfc18ebe6e1ceac53911c4dd4db18050" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:17:03.756Z</div>`)[0];
+                popup_c5fd3170f9295b6fe79b1cc65a3c189c.setContent(html_bfc18ebe6e1ceac53911c4dd4db18050);
+            
+        
+
+        marker_95b7973e1e7f83e19cb23d9f8220ae98.bindPopup(popup_c5fd3170f9295b6fe79b1cc65a3c189c)
+        ;
+
+        
+    
+    
+            var marker_e5fa0410b2a860d67d0161837bbfec01 = L.marker(
+                [59.431733, 10.657122],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_fdc58755b34d410f9617069a32522357 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e5fa0410b2a860d67d0161837bbfec01.setIcon(icon_fdc58755b34d410f9617069a32522357);
+        
+    
+        var popup_b630acd00296688ce7ab75cf7df214b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3046596489100deff62b7715a466fb0c = $(`<div id="html_3046596489100deff62b7715a466fb0c" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:17:08.585Z</div>`)[0];
+                popup_b630acd00296688ce7ab75cf7df214b3.setContent(html_3046596489100deff62b7715a466fb0c);
+            
+        
+
+        marker_e5fa0410b2a860d67d0161837bbfec01.bindPopup(popup_b630acd00296688ce7ab75cf7df214b3)
+        ;
+
+        
+    
+    
+            var marker_002fcd97817104043d7c5b09b1ed4ebd = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_c2a80ff2c5c028ce3132d0ec5e8d56e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_002fcd97817104043d7c5b09b1ed4ebd.setIcon(icon_c2a80ff2c5c028ce3132d0ec5e8d56e7);
+        
+    
+        var popup_b81491193e16317a2d90a43f052748dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3300986d84a904496881d4a4968b65d6 = $(`<div id="html_3300986d84a904496881d4a4968b65d6" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_b81491193e16317a2d90a43f052748dd.setContent(html_3300986d84a904496881d4a4968b65d6);
+            
+        
+
+        marker_002fcd97817104043d7c5b09b1ed4ebd.bindPopup(popup_b81491193e16317a2d90a43f052748dd)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_82b61068b47a5de92a48ca6cb98b62a8 = L.marker(
+                [59.914068, 10.642908],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_fb2ed2a8cd0bfa57e82a45a4d0b44351 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_82b61068b47a5de92a48ca6cb98b62a8.setIcon(icon_fb2ed2a8cd0bfa57e82a45a4d0b44351);
+        
+    
+        var popup_b72a451614fa9c8ecb141bbdd62cd61b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8c83315af32a6dead9606abf2d2c309 = $(`<div id="html_a8c83315af32a6dead9606abf2d2c309" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:17:43.423Z</div>`)[0];
+                popup_b72a451614fa9c8ecb141bbdd62cd61b.setContent(html_a8c83315af32a6dead9606abf2d2c309);
+            
+        
+
+        marker_82b61068b47a5de92a48ca6cb98b62a8.bindPopup(popup_b72a451614fa9c8ecb141bbdd62cd61b)
+        ;
+
+        
+    
+    
+            var marker_e15361250303e9fa7679cce7648acf20 = L.marker(
+                [59.576655, 10.728743],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_fbd75490ac2bd74bc465c5155411728e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e15361250303e9fa7679cce7648acf20.setIcon(icon_fbd75490ac2bd74bc465c5155411728e);
+        
+    
+        var popup_696ba90bf922d3071fbe810d3e5c561e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cc1709ea3e8dfbdfb177bcc50987814 = $(`<div id="html_1cc1709ea3e8dfbdfb177bcc50987814" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:17:37.966Z</div>`)[0];
+                popup_696ba90bf922d3071fbe810d3e5c561e.setContent(html_1cc1709ea3e8dfbdfb177bcc50987814);
+            
+        
+
+        marker_e15361250303e9fa7679cce7648acf20.bindPopup(popup_696ba90bf922d3071fbe810d3e5c561e)
+        ;
+
+        
+    
+    
+            var marker_31975f63d2f14dad940da96eb0de3c04 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_ec20776b129295438e590bb6727123a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_31975f63d2f14dad940da96eb0de3c04.setIcon(icon_ec20776b129295438e590bb6727123a5);
+        
+    
+        var popup_60ea8f371d9b03d40a6cbca60c89e0ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cb1584825128e7c1b394213338a0454 = $(`<div id="html_9cb1584825128e7c1b394213338a0454" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_60ea8f371d9b03d40a6cbca60c89e0ad.setContent(html_9cb1584825128e7c1b394213338a0454);
+            
+        
+
+        marker_31975f63d2f14dad940da96eb0de3c04.bindPopup(popup_60ea8f371d9b03d40a6cbca60c89e0ad)
+        ;
+
+        
+    
+    
+            var marker_81c2300d24806b66f6af3367a8432c9b = L.marker(
+                [59.685756, 10.800106],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_115d964875077af499bb812049f50ff6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_81c2300d24806b66f6af3367a8432c9b.setIcon(icon_115d964875077af499bb812049f50ff6);
+        
+    
+        var popup_05b39da8714cdb99175a93abb4b420e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4eca1f775c0d168d8f53f3d2dec8a62 = $(`<div id="html_b4eca1f775c0d168d8f53f3d2dec8a62" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:17:34.268Z</div>`)[0];
+                popup_05b39da8714cdb99175a93abb4b420e3.setContent(html_b4eca1f775c0d168d8f53f3d2dec8a62);
+            
+        
+
+        marker_81c2300d24806b66f6af3367a8432c9b.bindPopup(popup_05b39da8714cdb99175a93abb4b420e3)
+        ;
+
+        
+    
+    
+            var marker_b0eecf82f354c25e117c9487e23fcdcc = L.marker(
+                [59.431733, 10.657122],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_18bb050decbfcb525cc75c517f57649d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b0eecf82f354c25e117c9487e23fcdcc.setIcon(icon_18bb050decbfcb525cc75c517f57649d);
+        
+    
+        var popup_5c27369174d55568494caaa304d53f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91f7c0bc409206d01e4e750b1da51668 = $(`<div id="html_91f7c0bc409206d01e4e750b1da51668" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:17:08.585Z</div>`)[0];
+                popup_5c27369174d55568494caaa304d53f7c.setContent(html_91f7c0bc409206d01e4e750b1da51668);
+            
+        
+
+        marker_b0eecf82f354c25e117c9487e23fcdcc.bindPopup(popup_5c27369174d55568494caaa304d53f7c)
+        ;
+
+        
+    
+    
+            var marker_b09628a34ad126a1b46c5a8090979373 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_1f64249f0da15a45197175961f4e957b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b09628a34ad126a1b46c5a8090979373.setIcon(icon_1f64249f0da15a45197175961f4e957b);
+        
+    
+        var popup_8eada688b5085c7a5ccd624f7ffd6fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c00b4ffdfdaaaaca4fe53966b8e5d9f5 = $(`<div id="html_c00b4ffdfdaaaaca4fe53966b8e5d9f5" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_8eada688b5085c7a5ccd624f7ffd6fd7.setContent(html_c00b4ffdfdaaaaca4fe53966b8e5d9f5);
+            
+        
+
+        marker_b09628a34ad126a1b46c5a8090979373.bindPopup(popup_8eada688b5085c7a5ccd624f7ffd6fd7)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_90b1d756d1d402dd6b79bfaea58a72dc = L.marker(
+                [59.91361, 10.637383],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_9f78a91a36a5de38b8fb1002af3a6b8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_90b1d756d1d402dd6b79bfaea58a72dc.setIcon(icon_9f78a91a36a5de38b8fb1002af3a6b8d);
+        
+    
+        var popup_4571d80b7ba82697dfb6538abbaf2d98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b001f079fcfee60a2ef6de9aa946791a = $(`<div id="html_b001f079fcfee60a2ef6de9aa946791a" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:18:05.343Z</div>`)[0];
+                popup_4571d80b7ba82697dfb6538abbaf2d98.setContent(html_b001f079fcfee60a2ef6de9aa946791a);
+            
+        
+
+        marker_90b1d756d1d402dd6b79bfaea58a72dc.bindPopup(popup_4571d80b7ba82697dfb6538abbaf2d98)
+        ;
+
+        
+    
+    
+            var marker_d0f7fef66ffcebf34ac4fb348dbb4e0b = L.marker(
+                [59.567705, 10.723378],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_51f2fdd1785c67fb65e297bdfe420566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d0f7fef66ffcebf34ac4fb348dbb4e0b.setIcon(icon_51f2fdd1785c67fb65e297bdfe420566);
+        
+    
+        var popup_fd658bdd8056dcade23fbcd61bb51d65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_781fc969b3cfbb227f3cc4f6066d3447 = $(`<div id="html_781fc969b3cfbb227f3cc4f6066d3447" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:18:04.921Z</div>`)[0];
+                popup_fd658bdd8056dcade23fbcd61bb51d65.setContent(html_781fc969b3cfbb227f3cc4f6066d3447);
+            
+        
+
+        marker_d0f7fef66ffcebf34ac4fb348dbb4e0b.bindPopup(popup_fd658bdd8056dcade23fbcd61bb51d65)
+        ;
+
+        
+    
+    
+            var marker_32b565406db8d53d99c950fbccc69308 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_a184bde0c2c2666fb7ed3ae53bee4aef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_32b565406db8d53d99c950fbccc69308.setIcon(icon_a184bde0c2c2666fb7ed3ae53bee4aef);
+        
+    
+        var popup_e2d21d0da6a43e6500bc955e38f119a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31c13936668fa52d6aba69db125e0cf3 = $(`<div id="html_31c13936668fa52d6aba69db125e0cf3" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_e2d21d0da6a43e6500bc955e38f119a1.setContent(html_31c13936668fa52d6aba69db125e0cf3);
+            
+        
+
+        marker_32b565406db8d53d99c950fbccc69308.bindPopup(popup_e2d21d0da6a43e6500bc955e38f119a1)
+        ;
+
+        
+    
+    
+            var marker_48eb6c35c9c2836861948ae4fb4f6d14 = L.marker(
+                [59.694504, 10.807191],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_b1a3f81fd22d50d32f95e702848058d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_48eb6c35c9c2836861948ae4fb4f6d14.setIcon(icon_b1a3f81fd22d50d32f95e702848058d3);
+        
+    
+        var popup_edeb49600d374f98b7cd9a172aeff64b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98ff184dfc9cfa422bbdaf064a44bd9a = $(`<div id="html_98ff184dfc9cfa422bbdaf064a44bd9a" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:18:03.323Z</div>`)[0];
+                popup_edeb49600d374f98b7cd9a172aeff64b.setContent(html_98ff184dfc9cfa422bbdaf064a44bd9a);
+            
+        
+
+        marker_48eb6c35c9c2836861948ae4fb4f6d14.bindPopup(popup_edeb49600d374f98b7cd9a172aeff64b)
+        ;
+
+        
+    
+    
+            var marker_4d2918a2c5bdbf87d38096dc27b96263 = L.marker(
+                [59.431727, 10.657118],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_09e037b1092334dce6df39ced2f7f576 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4d2918a2c5bdbf87d38096dc27b96263.setIcon(icon_09e037b1092334dce6df39ced2f7f576);
+        
+    
+        var popup_58d688b4c4fafa047655e93c989d8af2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5f90e769e6bc838c59eaa7437f08307 = $(`<div id="html_d5f90e769e6bc838c59eaa7437f08307" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:18:06.709Z</div>`)[0];
+                popup_58d688b4c4fafa047655e93c989d8af2.setContent(html_d5f90e769e6bc838c59eaa7437f08307);
+            
+        
+
+        marker_4d2918a2c5bdbf87d38096dc27b96263.bindPopup(popup_58d688b4c4fafa047655e93c989d8af2)
+        ;
+
+        
+    
+    
+            var marker_836be7d85835d76ba9743576cdc1bb37 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_2ab3f878cd782cf0d5a7e9b3359b4a56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_836be7d85835d76ba9743576cdc1bb37.setIcon(icon_2ab3f878cd782cf0d5a7e9b3359b4a56);
+        
+    
+        var popup_2d4dbdbc6327dcce70803e025d16445d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cabee0f5411543d302c718b1d1f4537 = $(`<div id="html_9cabee0f5411543d302c718b1d1f4537" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_2d4dbdbc6327dcce70803e025d16445d.setContent(html_9cabee0f5411543d302c718b1d1f4537);
+            
+        
+
+        marker_836be7d85835d76ba9743576cdc1bb37.bindPopup(popup_2d4dbdbc6327dcce70803e025d16445d)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_01f299b13de153bbe43468327ec5baf0 = L.marker(
+                [59.91361, 10.637383],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_cf018b6237ad28ef8ad148b05f1a0736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_01f299b13de153bbe43468327ec5baf0.setIcon(icon_cf018b6237ad28ef8ad148b05f1a0736);
+        
+    
+        var popup_65fee5a87251c772d68b8af538b84e8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7589e10b087b70f334cf3d354d1bfced = $(`<div id="html_7589e10b087b70f334cf3d354d1bfced" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:18:05.343Z</div>`)[0];
+                popup_65fee5a87251c772d68b8af538b84e8e.setContent(html_7589e10b087b70f334cf3d354d1bfced);
+            
+        
+
+        marker_01f299b13de153bbe43468327ec5baf0.bindPopup(popup_65fee5a87251c772d68b8af538b84e8e)
+        ;
+
+        
+    
+    
+            var marker_d15c878ea140867b0a90a4c4e6d3961d = L.marker(
+                [59.567705, 10.723378],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_e0fc6282b6bbc93e030584bd48b0e43a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d15c878ea140867b0a90a4c4e6d3961d.setIcon(icon_e0fc6282b6bbc93e030584bd48b0e43a);
+        
+    
+        var popup_88a9daf5e3510924dc1db62bc3cf1011 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcee09795f2d1b6d1eeeb91b948ec78e = $(`<div id="html_bcee09795f2d1b6d1eeeb91b948ec78e" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:18:04.921Z</div>`)[0];
+                popup_88a9daf5e3510924dc1db62bc3cf1011.setContent(html_bcee09795f2d1b6d1eeeb91b948ec78e);
+            
+        
+
+        marker_d15c878ea140867b0a90a4c4e6d3961d.bindPopup(popup_88a9daf5e3510924dc1db62bc3cf1011)
+        ;
+
+        
+    
+    
+            var marker_625842ed35e4e45a0d586ae73a2c9144 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_8505ef3cd5471287c21d86e5d6a4b206 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_625842ed35e4e45a0d586ae73a2c9144.setIcon(icon_8505ef3cd5471287c21d86e5d6a4b206);
+        
+    
+        var popup_7878b5851a9c4904cd37a70050be4558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95189784d595a39ea84f580b7600ed01 = $(`<div id="html_95189784d595a39ea84f580b7600ed01" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_7878b5851a9c4904cd37a70050be4558.setContent(html_95189784d595a39ea84f580b7600ed01);
+            
+        
+
+        marker_625842ed35e4e45a0d586ae73a2c9144.bindPopup(popup_7878b5851a9c4904cd37a70050be4558)
+        ;
+
+        
+    
+    
+            var marker_53002cbd1ec5c3c7957010275b216024 = L.marker(
+                [59.700424, 10.815356],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_0ee45be6418e64031cac77bb2481d76c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_53002cbd1ec5c3c7957010275b216024.setIcon(icon_0ee45be6418e64031cac77bb2481d76c);
+        
+    
+        var popup_86dde49499c7829a6571a980bc082d47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8957ff8e757b8ec2c72aeb317311e29e = $(`<div id="html_8957ff8e757b8ec2c72aeb317311e29e" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:18:34.711Z</div>`)[0];
+                popup_86dde49499c7829a6571a980bc082d47.setContent(html_8957ff8e757b8ec2c72aeb317311e29e);
+            
+        
+
+        marker_53002cbd1ec5c3c7957010275b216024.bindPopup(popup_86dde49499c7829a6571a980bc082d47)
+        ;
+
+        
+    
+    
+            var marker_1598c7a4e5bd92e004d1bf59adf2ae14 = L.marker(
+                [59.431727, 10.657118],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_239a27b454381f9c650900a82045b4f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1598c7a4e5bd92e004d1bf59adf2ae14.setIcon(icon_239a27b454381f9c650900a82045b4f3);
+        
+    
+        var popup_043a53d5728e317bb5f8d301b64acfff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_045782769a8a8f2b8143563af19c119a = $(`<div id="html_045782769a8a8f2b8143563af19c119a" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:18:06.709Z</div>`)[0];
+                popup_043a53d5728e317bb5f8d301b64acfff.setContent(html_045782769a8a8f2b8143563af19c119a);
+            
+        
+
+        marker_1598c7a4e5bd92e004d1bf59adf2ae14.bindPopup(popup_043a53d5728e317bb5f8d301b64acfff)
+        ;
+
+        
+    
+    
+            var marker_41939254db2353b2169151b7577ece50 = L.marker(
+                [59.919888, 10.687467],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_050bab895bff867dcea755f9c3a5492a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_41939254db2353b2169151b7577ece50.setIcon(icon_050bab895bff867dcea755f9c3a5492a);
+        
+    
+        var popup_a09e24e1277671f42425bba1b8599070 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b922ff55f28369d13f585252025048c = $(`<div id="html_2b922ff55f28369d13f585252025048c" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:14:08.802Z</div>`)[0];
+                popup_a09e24e1277671f42425bba1b8599070.setContent(html_2b922ff55f28369d13f585252025048c);
+            
+        
+
+        marker_41939254db2353b2169151b7577ece50.bindPopup(popup_a09e24e1277671f42425bba1b8599070)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_efa2a1039fddc1fec29cbd086ff4987c = L.marker(
+                [59.913732, 10.635296],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_dbfea19aebb0e29264667522c3466ec4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_efa2a1039fddc1fec29cbd086ff4987c.setIcon(icon_dbfea19aebb0e29264667522c3466ec4);
+        
+    
+        var popup_ac4b1e8c41e256fc89d9e8de192cb454 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28bddaeb1aaa54629bf7ee4618e09704 = $(`<div id="html_28bddaeb1aaa54629bf7ee4618e09704" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:19:07.577Z</div>`)[0];
+                popup_ac4b1e8c41e256fc89d9e8de192cb454.setContent(html_28bddaeb1aaa54629bf7ee4618e09704);
+            
+        
+
+        marker_efa2a1039fddc1fec29cbd086ff4987c.bindPopup(popup_ac4b1e8c41e256fc89d9e8de192cb454)
+        ;
+
+        
+    
+    
+            var marker_0c4b97adaf803822cf91287247e3fdec = L.marker(
+                [59.549012, 10.72404],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_c9481e2dd27fa361d2ade05d8de8a31f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0c4b97adaf803822cf91287247e3fdec.setIcon(icon_c9481e2dd27fa361d2ade05d8de8a31f);
+        
+    
+        var popup_a2ccc94d553a3b4498698ee68f953626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_203b678d7e888d292aeac036d443dd5a = $(`<div id="html_203b678d7e888d292aeac036d443dd5a" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:19:04.005Z</div>`)[0];
+                popup_a2ccc94d553a3b4498698ee68f953626.setContent(html_203b678d7e888d292aeac036d443dd5a);
+            
+        
+
+        marker_0c4b97adaf803822cf91287247e3fdec.bindPopup(popup_a2ccc94d553a3b4498698ee68f953626)
+        ;
+
+        
+    
+    
+            var marker_c4efd1ddb7996586508bd0c61aee7488 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_e997fcaba266c123895325037039a271 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c4efd1ddb7996586508bd0c61aee7488.setIcon(icon_e997fcaba266c123895325037039a271);
+        
+    
+        var popup_ad8ddfb08d4bfb8e2255832d1aa5d336 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d132689c4478590fbb12a31b85e70a3 = $(`<div id="html_5d132689c4478590fbb12a31b85e70a3" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_ad8ddfb08d4bfb8e2255832d1aa5d336.setContent(html_5d132689c4478590fbb12a31b85e70a3);
+            
+        
+
+        marker_c4efd1ddb7996586508bd0c61aee7488.bindPopup(popup_ad8ddfb08d4bfb8e2255832d1aa5d336)
+        ;
+
+        
+    
+    
+            var marker_9a398c52d470a35e1d0fd83a64178001 = L.marker(
+                [59.707011, 10.826455],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_f117b079c23c83050a538ef288fbe0e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9a398c52d470a35e1d0fd83a64178001.setIcon(icon_f117b079c23c83050a538ef288fbe0e4);
+        
+    
+        var popup_5ae3a41ec9a7deea545a1a1c251b88d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bb9eb9595ff71cdd684c74ee4bed4fc = $(`<div id="html_9bb9eb9595ff71cdd684c74ee4bed4fc" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:19:03.443Z</div>`)[0];
+                popup_5ae3a41ec9a7deea545a1a1c251b88d0.setContent(html_9bb9eb9595ff71cdd684c74ee4bed4fc);
+            
+        
+
+        marker_9a398c52d470a35e1d0fd83a64178001.bindPopup(popup_5ae3a41ec9a7deea545a1a1c251b88d0)
+        ;
+
+        
+    
+    
+            var marker_1ede95cc40e47dd85efa4bfade3b09fa = L.marker(
+                [59.431743, 10.657138],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_78f689fd78a55a491ce0e026c9051405 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1ede95cc40e47dd85efa4bfade3b09fa.setIcon(icon_78f689fd78a55a491ce0e026c9051405);
+        
+    
+        var popup_e9886d7d267ebc346b0aaf0045d5966c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4de245d5fb231fe7b9ee1692f9e54db4 = $(`<div id="html_4de245d5fb231fe7b9ee1692f9e54db4" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:19:08.464Z</div>`)[0];
+                popup_e9886d7d267ebc346b0aaf0045d5966c.setContent(html_4de245d5fb231fe7b9ee1692f9e54db4);
+            
+        
+
+        marker_1ede95cc40e47dd85efa4bfade3b09fa.bindPopup(popup_e9886d7d267ebc346b0aaf0045d5966c)
+        ;
+
+        
+    
+    
+            var marker_4a8a393764db312c0c3a508e983bf658 = L.marker(
+                [59.910406, 10.755085],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_aa1b097edf0f29f1a52edc5c85b08de4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4a8a393764db312c0c3a508e983bf658.setIcon(icon_aa1b097edf0f29f1a52edc5c85b08de4);
+        
+    
+        var popup_47e75f8f51bb099e02733ef604ab2aa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_177eb55d15452ce3d4aa6c0fc136d0d4 = $(`<div id="html_177eb55d15452ce3d4aa6c0fc136d0d4" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:19:07.584Z</div>`)[0];
+                popup_47e75f8f51bb099e02733ef604ab2aa2.setContent(html_177eb55d15452ce3d4aa6c0fc136d0d4);
+            
+        
+
+        marker_4a8a393764db312c0c3a508e983bf658.bindPopup(popup_47e75f8f51bb099e02733ef604ab2aa2)
+        ;
+
+        
+    
+    
+            tile_layer_44329d13e723c32b74eb3f6697c38785.addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var marker_fa5072437eeab98e1dcd01a86e7a38e5 = L.marker(
+                [59.913732, 10.635296],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_51b792c1c926339651c928257aafa8ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa5072437eeab98e1dcd01a86e7a38e5.setIcon(icon_51b792c1c926339651c928257aafa8ea);
+        
+    
+        var popup_f87c44a59ea05c5bd55502831f3c6b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a66cd846baa1e92c68b9e5ebe938480 = $(`<div id="html_2a66cd846baa1e92c68b9e5ebe938480" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1162-2025-02-11<br>Last Updated: 2025-02-11T19:19:07.577Z</div>`)[0];
+                popup_f87c44a59ea05c5bd55502831f3c6b5e.setContent(html_2a66cd846baa1e92c68b9e5ebe938480);
+            
+        
+
+        marker_fa5072437eeab98e1dcd01a86e7a38e5.bindPopup(popup_f87c44a59ea05c5bd55502831f3c6b5e)
+        ;
+
+        
+    
+    
+            var marker_644c25e168e8b6aede02b0b36be5cec5 = L.marker(
+                [59.539498, 10.727065],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_bb84740ef0abe5a844cf184af3549c6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_644c25e168e8b6aede02b0b36be5cec5.setIcon(icon_bb84740ef0abe5a844cf184af3549c6a);
+        
+    
+        var popup_f4ca61cb73a485ed2df2a4c95bf468cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efd2d8e5d69189c754f7819a3f5f47ce = $(`<div id="html_efd2d8e5d69189c754f7819a3f5f47ce" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1159-2025-02-11<br>Last Updated: 2025-02-11T19:19:42.587Z</div>`)[0];
+                popup_f4ca61cb73a485ed2df2a4c95bf468cd.setContent(html_efd2d8e5d69189c754f7819a3f5f47ce);
+            
+        
+
+        marker_644c25e168e8b6aede02b0b36be5cec5.bindPopup(popup_f4ca61cb73a485ed2df2a4c95bf468cd)
+        ;
+
+        
+    
+    
+            var marker_211e2abc59515b0e053ce8c24b066af6 = L.marker(
+                [59.431723, 10.657163],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_f6d17ff9c5f3071df87825ceeceea31f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_211e2abc59515b0e053ce8c24b066af6.setIcon(icon_f6d17ff9c5f3071df87825ceeceea31f);
+        
+    
+        var popup_9ec17250a57a13e96f57de2bbb0f3b15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd3150d4a100df70e0dbe6aefa990e80 = $(`<div id="html_dd3150d4a100df70e0dbe6aefa990e80" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1157-2025-02-11<br>Last Updated: 2025-02-11T19:03:08.079Z</div>`)[0];
+                popup_9ec17250a57a13e96f57de2bbb0f3b15.setContent(html_dd3150d4a100df70e0dbe6aefa990e80);
+            
+        
+
+        marker_211e2abc59515b0e053ce8c24b066af6.bindPopup(popup_9ec17250a57a13e96f57de2bbb0f3b15)
+        ;
+
+        
+    
+    
+            var marker_37938f9cc852da7847eb858f2a90ea4f = L.marker(
+                [59.713429, 10.832064],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_f9d676d326e2d8cc52428a7a1870ae6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_37938f9cc852da7847eb858f2a90ea4f.setIcon(icon_f9d676d326e2d8cc52428a7a1870ae6d);
+        
+    
+        var popup_34af79a1440b67a6ab4965e1405ccf62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c290e5249526e0c400aab3b4c8d7493 = $(`<div id="html_4c290e5249526e0c400aab3b4c8d7493" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1164-2025-02-11<br>Last Updated: 2025-02-11T19:19:39.746Z</div>`)[0];
+                popup_34af79a1440b67a6ab4965e1405ccf62.setContent(html_4c290e5249526e0c400aab3b4c8d7493);
+            
+        
+
+        marker_37938f9cc852da7847eb858f2a90ea4f.bindPopup(popup_34af79a1440b67a6ab4965e1405ccf62)
+        ;
+
+        
+    
+    
+            var marker_3cdd8e9381580202e1627d621a5671a1 = L.marker(
+                [59.431743, 10.657138],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_6f180d956711132b2845b6722cb685f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3cdd8e9381580202e1627d621a5671a1.setIcon(icon_6f180d956711132b2845b6722cb685f1);
+        
+    
+        var popup_c40e3e5150e17af8739dc493bbf9304c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f912dc775c3895649d60bfc7b946d39 = $(`<div id="html_6f912dc775c3895649d60bfc7b946d39" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1166-2025-02-11<br>Last Updated: 2025-02-11T19:19:08.464Z</div>`)[0];
+                popup_c40e3e5150e17af8739dc493bbf9304c.setContent(html_6f912dc775c3895649d60bfc7b946d39);
+            
+        
+
+        marker_3cdd8e9381580202e1627d621a5671a1.bindPopup(popup_c40e3e5150e17af8739dc493bbf9304c)
+        ;
+
+        
+    
+    
+            var marker_07d9c621eada5b2ad51054c46c6053b6 = L.marker(
+                [59.910406, 10.755085],
+                {
+}
+            ).addTo(map_c26d8f2990372490ee75626009c2b4b4);
+        
+    
+            var icon_1916dd8112907dbdb43dc3fb1db7e71c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_07d9c621eada5b2ad51054c46c6053b6.setIcon(icon_1916dd8112907dbdb43dc3fb1db7e71c);
+        
+    
+        var popup_1d2eb7e2587642ec0a33d4951dbc38f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b2aafeaaf983aad62445c7809508f79 = $(`<div id="html_4b2aafeaaf983aad62445c7809508f79" style="width: 100.0%; height: 100.0%;">Vehicle ID: 1161-2025-02-11<br>Last Updated: 2025-02-11T19:19:07.584Z</div>`)[0];
+                popup_1d2eb7e2587642ec0a33d4951dbc38f1.setContent(html_4b2aafeaaf983aad62445c7809508f79);
+            
+        
+
+        marker_07d9c621eada5b2ad51054c46c6053b6.bindPopup(popup_1d2eb7e2587642ec0a33d4951dbc38f1)
+        ;
+
+        
+    
+</script>
+</html>

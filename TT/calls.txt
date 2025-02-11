@@ -1,0 +1,13 @@
+"""
+    {
+      vehiclePositions(lineRef: "VYG:Line:R21") {
+        vehicleId
+        occupancyStatus
+        lastUpdated
+        location {
+          latitude
+          longitude
+        }
+      }
+    }
+    """
